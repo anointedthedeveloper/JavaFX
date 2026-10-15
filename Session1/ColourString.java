@@ -12,7 +12,7 @@ public class ColourString {
         list.add("White");
         // Print the list
         for (String element : list) {
-            System.out.println(element);
+            System.out.print(element + " ");
         }
     }
 }
