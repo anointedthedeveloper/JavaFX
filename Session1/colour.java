@@ -1,6 +1,6 @@
 package Session1;
 import java.util.*;
-public class colour {
+public class Colour {
     public static void main(String[] args) {
         //creating arrayList list dynamically
         List<String> list = new ArrayList<>();
@@ -13,7 +13,7 @@ public class colour {
         for (int i = 0; i < list.size(); i++) {
             String data = list.get(i);
             //Printing elements of an array
-            System.out.print(data + " ");
+            System.out.println(data);
         }
     }
 }
