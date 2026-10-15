@@ -10,9 +10,9 @@ public class ColourString {
         list.add("Green");
         list.add("Orange");
         list.add("White");
-        String[] str = list.toArray(new String[0]);
-        for (int i = 0; i < str.length; i++) {
-            System.out.println(str[i] + " ");
+        // Print the list
+        for (String element : list) {
+            System.out.println(element);
         }
     }
 }
