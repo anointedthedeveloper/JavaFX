@@ -1,0 +1,29 @@
+package Session5;
+
+import java.io.*;
+import java.util.*;
+
+class MyThread implements Runnable {
+
+    // Method to start Thread
+    public void run() {
+
+        String str = "Thread is Running Successfully";
+        System.out.println(str);
+    }
+
+}
+
+public class Geek2 {
+
+    public static void main(String[] args) {
+
+        MyThread g1 = new MyThread();
+
+        // initializing Thread Object
+        Thread t1 = new Thread(g1);
+
+        // Running Thread
+        t1.start();
+    }
+}
